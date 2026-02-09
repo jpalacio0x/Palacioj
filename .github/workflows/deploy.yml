@@ -16,7 +16,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script_stop: true
           script: |
-            cd /home/opc/app
+            cd /home/opc/LiveTerm
             git pull origin main
             yarn install --frozen-lockfile
             yarn build
