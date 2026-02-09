@@ -1,39 +1,39 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Julio Palacio",
+  "name": "Julio Palacio",
+  "ascii": "palacioj",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "jpalacio0x",
+    "linkedin": "julio-palacio-64b443382"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "julio@palacioj.com",
+  "ps1_hostname": "palacioj",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
+  "repo": "https://github.com/jpalacio0x",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/jpalaciox",
+    "patreon": "https://patreon.com/jpalaciox"
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+"background": "#ffffff",
+      "foreground": "#000000",
+      "yellow": "#d19a66",
+      "green": "#98c379",
+      "gray": "#abb2bf",
+      "blue": "#61afef",
+      "red": "#e06c75"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+"background": "#020a10",
+      "foreground": "#ff2a6d",
+      "yellow": "#05d9e8",
+      "green": "#00f0ff",
+      "gray": "#3d5a80",
+      "blue": "#00567a",
+      "red": "#ff2a6d"
     }
   }
 }
