@@ -16,6 +16,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script_stop: true
           script: |
+            export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no"
             cd /home/opc/LiveTerm
             git pull origin main
             yarn install --frozen-lockfile
