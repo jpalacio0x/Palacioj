@@ -5,7 +5,8 @@ import { getQuote } from '../api';
 import { getReadme } from '../api';
 import { getWeather } from '../api';
 
-export const projects = async (args: string[]): Promise<string> => {
+// Live GitHub repo listing — curated `projects` lives in commands.ts
+export const ghprojects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
   return projects
     .map(

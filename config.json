@@ -1,5 +1,5 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/jpalacio0x/jpalacio0x/master/README.md",
   "title": "Julio Palacio",
   "name": "Julio Palacio",
   "ascii": "palacioj",
@@ -8,26 +8,24 @@
     "linkedin": "julio-palacio-64b443382"
   },
   "email": "julio@palacioj.com",
+  "phone": "+1 (435) 720-8275",
+  "location": "Berrien Springs, MI",
   "ps1_hostname": "palacioj",
   "ps1_username": "visitor",
   "repo": "https://github.com/jpalacio0x",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/jpalaciox",
-    "patreon": "https://patreon.com/jpalaciox"
-  },
+  "resume_url": "/resume.pdf",
   "colors": {
     "light": {
-"background": "#ffffff",
-      "foreground": "#000000",
-      "yellow": "#d19a66",
-      "green": "#98c379",
-      "gray": "#abb2bf",
-      "blue": "#61afef",
-      "red": "#e06c75"
+      "background": "#f4f1ea",
+      "foreground": "#00263a",
+      "yellow": "#b58900",
+      "green": "#0b6623",
+      "gray": "#657b83",
+      "blue": "#00539b",
+      "red": "#a8322d"
     },
     "dark": {
-"background": "#020a10",
+      "background": "#020a10",
       "foreground": "#ff2a6d",
       "yellow": "#05d9e8",
       "green": "#00f0ff",
