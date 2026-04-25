@@ -182,6 +182,11 @@ export const duckduckgo = async (args: string[]): Promise<string> => {
   return `Searching duckduckgo for ${args.join(' ')}...`;
 };
 
+export const crafty = async (args: string[]): Promise<string> => {
+  window.open(`https://crafty.palacioj.com/${args.join(' ')}`);
+  return `Opening Crafty Controller ${args.join(' ')}...`;
+};
+
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
   return `Wow, really? You are using bing for ${args.join(' ')}?`;
