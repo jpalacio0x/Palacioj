@@ -187,6 +187,11 @@ export const crafty = async (args: string[]): Promise<string> => {
   return `Opening Crafty Controller ${args.join(' ')}...`;
 };
 
+export const quiniela = async (args: string[]): Promise<string> => {
+  window.open(`https://quiniela.palacioj.com/`);
+  return `Opening Quiniela...`;
+};
+
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
   return `Wow, really? You are using bing for ${args.join(' ')}?`;
