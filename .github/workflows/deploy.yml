@@ -19,6 +19,6 @@ jobs:
             export GIT_SSH_COMMAND="ssh -i /home/ubuntu/.ssh/id_ed25519 -o StrictHostKeyChecking=no -o IdentitiesOnly=yes"
             cd /home/ubuntu/Palacioj
             git pull origin main
-            yarn install --frozen-lockfile
-            yarn build
-            pm2 restart palacioj
+            npm ci
+            npm run build
+            /usr/local/bin/pm2 restart palacioj
